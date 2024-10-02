@@ -32,7 +32,7 @@ const CodePG = () => {
       {running && (
         <div className="w-full bg-gray-200 h-1 overflow-hidden">
           <div
-            className="bg-green-500 h-full"
+            className="bg-pri h-full"
             style={{ width: `${progress}%` }}
           ></div>
         </div>
@@ -62,7 +62,7 @@ const CodePG = () => {
         <div className="w-full flex justify-end">
           <button
             onClick={runCode}
-            className="bg-green-500 hover:bg-green-600 text-white flex items-center justify-center gap-3 rounded-lg shadow-lg transition-colors duration-300 disabled:bg-ter-dark w-[100px] h-10"
+            className="bg-pri hover:opacity-90 text-white flex items-center justify-center gap-3 rounded-lg shadow-lg transition-colors duration-300 disabled:bg-ter-dark w-[100px] h-10"
             disabled={running}
           >
             {running ? (
