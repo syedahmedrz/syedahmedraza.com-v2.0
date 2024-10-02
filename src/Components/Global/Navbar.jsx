@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
       <div>
         {/* Toggle Between Dark and Light Mode */}
-        <input type="checkbox" className="toggle-checkbox" />
+        <input type="checkbox" checked className="toggle-checkbox" />
       </div>
     </nav>
   );

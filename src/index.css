@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  letter-spacing: 0.8px;
+}
+
 :root {
   --color-pri-dark: #020617;
   --color-sec-dark: #0f172a;
@@ -30,7 +34,7 @@
   left: 2px;
   height: 18px;
   aspect-ratio: 1/1;
-  background-color: var(--color-pri-dark);
+  background-color: rgba(106, 90, 205, 0.9);
   border-radius: 50%;
   transition: transform 0.2s;
 }

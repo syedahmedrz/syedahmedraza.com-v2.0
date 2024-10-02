@@ -101,14 +101,16 @@ const HeroSection = () => {
             ref={(el) => (spotlightRefs.current[4] = el)}
           >
             <div className="spotlight-content bg-sec-dark h-full flex items-center justify-center text-3xl text-white font-bold rounded-md relative">
-              <RiRobot2Line className={"text-[40px] md:text-[60px] lg:text-[80px]"} />
+              <RiRobot2Line
+                className={"text-[40px] md:text-[60px] lg:text-[80px]"}
+              />
             </div>
           </div>
         </div>
 
         {/* Arrow Card */}
         <div className="h-full ">
-          <div className="flex items-center justify-center w-[60px] h-[60px] border-4 border-sec-dark  text-white rounded-full">
+          <div className="flex items-center justify-center w-[60px] h-[60px] border-4 border-sec-dark  text-white rounded-full animate-pulse lg:animate-bounce">
             <FaArrowDownLong size={"25px"} />
           </div>
         </div>
