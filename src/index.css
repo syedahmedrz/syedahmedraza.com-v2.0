@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-pri-dark: #020617;
+  --color-sec-dark: #0f172a;
+  --color-ter-dark: #1e293b;
+}
+
+/* Styles for the checkbox to act as a toggle switch */
+.toggle-checkbox {
+  appearance: none;
+  width: 50px;
+  height: 24px;
+  background-color: var(--color-ter-dark);
+  position: relative;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  outline: none;
+}
+
+/* Style for the circle inside the toggle switch */
+.toggle-checkbox::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2px;
+  height: 18px;
+  aspect-ratio: 1/1;
+  background-color: var(--color-pri-dark);
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+/* Change styles when the checkbox is checked */
+.toggle-checkbox:checked {
+  /* background-color: #4caf50; */
+}
+
+.toggle-checkbox:checked::before {
+  transform: translate(
+    26px,
+    -50%
+  ); /* Move the circle to the right when checked */
+}

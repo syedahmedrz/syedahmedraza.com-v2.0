@@ -1,10 +1,10 @@
-
-import './App.css';
+import "./App.css";
+import Navbar from "./Components/Global/Navbar";
 
 function App() {
   return (
-    <div className='font-bold text-teal-400 text-lg'>
-      Application
+    <div className="bg-pri-dark h-screen w-full">
+      <Navbar />
     </div>
   );
 }
