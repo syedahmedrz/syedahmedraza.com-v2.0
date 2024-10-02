@@ -12,6 +12,17 @@
   --color-ter-dark: #1e293b;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-sec-dark);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(106, 90, 205, 0.9);
+}
+
 /* Styles for the checkbox to act as a toggle switch */
 .toggle-checkbox {
   appearance: none;

@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="bg-pri-dark w-full">
       <Navbar />
-      <HeroSection/>
-      <CodePG/>
+      <HeroSection />
+      <CodePG />
     </div>
   );
 }
