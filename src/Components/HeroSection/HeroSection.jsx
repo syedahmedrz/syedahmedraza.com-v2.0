@@ -31,14 +31,14 @@ const HeroSection = () => {
   return (
     <div className="mx-auto w-11/12 xl:w-[1100px] mt-24">
       {/* grid wrapper */}
-      <div className="w-10/12   grid grid-cols-3 grid-rows-3 gap-8">
+      <div className="   grid grid-cols-3 grid-rows-3 gap-4 lg:gap-8">
         {/* Innovation Card */}
         <div className="h-full">
           <div
             className="spotlight h-full p-[2px] bg-sec-dark relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[0] = el)}
           >
-            <div className="spotlight-content bg-sec-dark h-full flex items-center justify-center text-3xl text-white font-bold rounded-md relative">
+            <div className="spotlight-content bg-sec-dark h-full flex items-center justify-center text-sm md:text-lg lg:text-3xl text-white font-bold rounded-md relative">
               Innovation
             </div>
           </div>
@@ -52,7 +52,7 @@ const HeroSection = () => {
           >
             <img
               src={SyedPortrait}
-              className="spotlight-content rounded-md relative "
+              className="spotlight-content rounded-md relative h-full object-cover "
               alt="SyedImage"
             />
           </div>
@@ -60,7 +60,7 @@ const HeroSection = () => {
 
         {/* Syed Slogan */}
         <div>
-          <p className="text-white text-4xl leading-[50px] ">
+          <p className="text-white text-xs md:text-2xl lg:text-4xl lg:leading-[50px] ">
             <span className="font-bold">
               &lt; Syed Ahmed <br />
             </span>
@@ -77,7 +77,7 @@ const HeroSection = () => {
             ref={(el) => (spotlightRefs.current[2] = el)}
           >
             <div className="spotlight-content bg-ter-dark h-full flex items-center justify-center text-3xl text-white font-bold rounded-md relative">
-              <TbCode size={"80px"} />
+              <TbCode className={"text-[40px] md:text-[60px] lg:text-[80px]"} />
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ const HeroSection = () => {
             className="spotlight h-full p-[2px] bg-ter-dark relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[3] = el)}
           >
-            <div className="spotlight-content bg-ter-dark h-full flex items-center justify-center text-3xl text-white font-bold rounded-md relative">
+            <div className="spotlight-content bg-ter-dark h-full flex items-center justify-center text-sm md:text-lg lg:text-3xl text-white font-bold rounded-md relative">
               Smart
             </div>
           </div>
@@ -101,7 +101,7 @@ const HeroSection = () => {
             ref={(el) => (spotlightRefs.current[4] = el)}
           >
             <div className="spotlight-content bg-sec-dark h-full flex items-center justify-center text-3xl text-white font-bold rounded-md relative">
-              <RiRobot2Line size={"80px"} />
+              <RiRobot2Line className={"text-[40px] md:text-[60px] lg:text-[80px]"} />
             </div>
           </div>
         </div>
