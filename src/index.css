@@ -46,3 +46,23 @@
     -50%
   ); /* Move the circle to the right when checked */
 }
+
+/* Spotlight with a Modern Gradient */
+.spotlight::before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  inset: 0px;
+  background: radial-gradient(
+    200px circle at var(--x) var(--y),
+    rgba(106, 90, 205, 0.9),  /* Deep purple with higher opacity */
+    rgba(123, 104, 238, 0.5), /* Lighter purple, less opacity */
+    rgba(224, 102, 255, 0.2), /* Soft pink, very transparent */
+    transparent               /* Fully transparent to blend into the background */
+  );
+  background-attachment: fixed;
+}
+
+.spotlight-content {
+  z-index:2;
+}
