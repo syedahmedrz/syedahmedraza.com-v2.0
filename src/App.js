@@ -5,6 +5,7 @@ import Navbar from "./Components/Global/Navbar";
 import HeroSection from "./Components/HeroSection/HeroSection";
 import Leadership from "./Components/Leadership/Leadership";
 import TechStack from "./Components/TechStack/TechStack";
+import MyNextBigMovesSection from "./Components/MyNextBigMovesSection/MyNextBigMovesSection";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <TechStack />
       <AboutSection />
       <Leadership />
+      <MyNextBigMovesSection />
     </div>
   );
 }

@@ -33,7 +33,7 @@ const Leadership = () => {
             Pioneering Leadership at Rioox
           </div>
           <div
-            className="spotlight p-[2px] bg-pri-dark relative rounded-md overflow-hidden cursor-pointer"
+            className="spotlight p-[2px] bg-ter-dark relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[0] = el)}
           >
             <div className="relative spotlight-content bg-ter-dark rounded-md p-4 lg:p-8 text-white grid gap-2 text-xs text-justify lg:text-base">
@@ -54,7 +54,7 @@ const Leadership = () => {
           <div className="">
             <img src={RiooxLogo}  alt="" />
           </div>
-          <div className="spotlight p-[2px] bg-pri-dark relative rounded-md overflow-hidden cursor-pointer" ref={(el) => (spotlightRefs.current[1] = el)}>
+          <div className="spotlight p-[2px] bg-ter-dark relative rounded-md overflow-hidden cursor-pointer" ref={(el) => (spotlightRefs.current[1] = el)}>
             <div className="relative spotlight-content bg-ter-dark rounded-md p-4 lg:p-8 text-white grid gap-2 text-xs text-justify lg:text-base">
               Rioox is not just a web development company; it is a hub of
               innovation where we craft digital experiences that resonate and
