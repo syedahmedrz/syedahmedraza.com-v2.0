@@ -7,6 +7,7 @@ import Leadership from "./Components/Leadership/Leadership";
 import TechStack from "./Components/TechStack/TechStack";
 import MyNextBigMovesSection from "./Components/MyNextBigMovesSection/MyNextBigMovesSection";
 import ClientSpotlights from "./Components/ClientSpotlights/ClientSpotlights";
+import Footer from "./Components/Global/Footer";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <AboutSection />
       <Leadership />
       <MyNextBigMovesSection />
-      <ClientSpotlights/>
+      <ClientSpotlights />
+      <Footer />
     </div>
   );
 }
