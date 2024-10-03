@@ -1,0 +1,11 @@
+mx-auto w-10/12 xl:w-[1100px] mt-32 lg:mt-64 - section wrapper
+
+gap-4 lg:gap-8 - big gap
+
+gap-4 - normal gap inside the section 
+
+mt-8 - margin between child
+
+text-sm md:text-lg lg:text-3xl - normal text
+
+text-[40px] md:text-[50px] lg:text-[50px] - icon
