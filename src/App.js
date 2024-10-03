@@ -6,6 +6,7 @@ import HeroSection from "./Components/HeroSection/HeroSection";
 import Leadership from "./Components/Leadership/Leadership";
 import TechStack from "./Components/TechStack/TechStack";
 import MyNextBigMovesSection from "./Components/MyNextBigMovesSection/MyNextBigMovesSection";
+import ClientSpotlights from "./Components/ClientSpotlights/ClientSpotlights";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AboutSection />
       <Leadership />
       <MyNextBigMovesSection />
+      <ClientSpotlights/>
     </div>
   );
 }
