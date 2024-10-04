@@ -53,7 +53,7 @@ const HeroSection = () => {
             className="spotlight h-full p-[2px] bg-transparent relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[1] = el)}
           >
-            <div className="relative z-50">
+            <div className="relative z-50 h-full">
               <LazyLoadImage
                 alt="Syed Image"
                 src={SyedPortrait} // Use imported image here
