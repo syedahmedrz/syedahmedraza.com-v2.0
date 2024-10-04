@@ -7,6 +7,7 @@ import Leadership from "./Components/Leadership/Leadership";
 import TechStack from "./Components/TechStack/TechStack";
 import MyNextBigMovesSection from "./Components/MyNextBigMovesSection/MyNextBigMovesSection";
 import ClientSpotlights from "./Components/ClientSpotlights/ClientSpotlights";
+import AIGITCGEN from "./Components/AIGITCGEN/AIGITCGEN";
 import Footer from "./Components/Global/Footer";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Leadership />
       <MyNextBigMovesSection />
       <ClientSpotlights />
+      <AIGITCGEN />
       <Footer />
     </div>
   );
