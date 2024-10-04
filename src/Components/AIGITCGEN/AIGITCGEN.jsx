@@ -44,9 +44,9 @@ const AIGITCGEN = () => {
             </div>
           </div>
           <div>
-            <button className="bg-pri hover:opacity-80 text-white flex items-center justify-center gap-2 rounded-lg shadow-lg transition-colors duration-300 disabled:bg-ter-dark w-[130px] h-10">
+            <a href="https://chatgpt.com/g/g-cim02Uu4h-ai-enhanced-git-commit-message-generator" target="_blank" className="bg-pri hover:opacity-80 text-white flex items-center justify-center gap-2 rounded-lg shadow-lg transition-colors duration-300 disabled:bg-ter-dark w-[130px] h-10">
               <FiExternalLink /> Try Now
-            </button>
+            </a>
           </div>
         </div>
 
