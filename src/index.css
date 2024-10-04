@@ -104,3 +104,7 @@
   background-attachment: fixed;
   background-position: left;
 }
+
+.lazy-load-image-background {
+  height: 100%;
+}
