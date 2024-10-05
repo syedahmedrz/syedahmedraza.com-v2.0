@@ -34,14 +34,14 @@ const HeroSection = () => {
   return (
     <div className="mx-auto w-11/12 xl:w-[1100px] mt-24">
       {/* grid wrapper */}
-      <div className="   grid grid-cols-3 grid-rows-3 gap-4 lg:gap-8">
+      <div className="   grid grid-cols-3 grid-rows-3 gap-3 md:gap-4 lg:gap-8">
         {/* Innovation Card */}
         <div className="h-full">
           <div
             className="spotlight h-full p-[2px] bg-sec-dark relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[0] = el)}
           >
-            <div className="spotlight-content bg-sec-dark h-full flex items-center justify-center text-sm md:text-lg lg:text-3xl text-white font-bold rounded-md relative">
+            <div className="spotlight-content bg-sec-dark h-full flex items-center justify-center text-xs md:text-lg lg:text-3xl text-white font-bold rounded-md relative">
               Innovation
             </div>
           </div>
@@ -94,7 +94,7 @@ const HeroSection = () => {
             className="spotlight h-full p-[2px] bg-ter-dark relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[3] = el)}
           >
-            <div className="spotlight-content bg-ter-dark h-full flex items-center justify-center text-sm md:text-lg lg:text-3xl text-white font-bold rounded-md relative">
+            <div className="spotlight-content bg-ter-dark h-full flex items-center justify-center text-xs md:text-lg lg:text-3xl text-white font-bold rounded-md relative">
               Smart
             </div>
           </div>
