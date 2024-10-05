@@ -9,7 +9,7 @@ import LogoLight from "../../Assets/Site-Images/LogoLight.png";
 const Footer = () => {
   return (
     <div className="mt-32 lg:mt-64 bg-sec-dark w-full py-10 ">
-      <div className="mx-auto w-10/12 xl:w-[1100px] grid lg:grid-cols-2 gap-8">
+      <div className="mx-auto w-11/12 xl:w-[1100px] grid lg:grid-cols-2 gap-8">
         <div>
           <img src={LogoLight} className="h-16" alt="" />
           <div className="flex gap-4 mt-4 text-white text-2xl">

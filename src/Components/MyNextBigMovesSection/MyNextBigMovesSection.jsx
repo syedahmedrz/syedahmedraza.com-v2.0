@@ -25,7 +25,7 @@ const MyNextBigMovesSection = () => {
   }, []);
 
   return (
-    <div className="mx-auto w-10/12 xl:w-[1100px] mt-32 lg:mt-64">
+    <div className="mx-auto w-11/12 xl:w-[1100px] mt-32 lg:mt-64">
       <div className="grid lg:grid-cols-2 gap-4 lg:gap-8">
         {/* My Next Big Moves */}
         <div className="flex flex-col  gap-4 lg:gap-8">

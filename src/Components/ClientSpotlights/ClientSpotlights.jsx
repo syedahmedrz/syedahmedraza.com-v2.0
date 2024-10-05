@@ -4,7 +4,7 @@ const ClientSpotlights = () => {
   return (
     <div className="ClientSpotlights mt-32 lg:mt-64 w-full py-32 relative z-10">
       {/* <div className="absolute top-0 left-0 text-[20vw] z-20">Client Spotlights</div> */}
-      <div className="relative mx-auto w-10/12 xl:w-[1100px] z-50 grid lg:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-8">
+      <div className="relative mx-auto w-11/12 xl:w-[1100px] z-50 grid lg:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-8">
         <ClientSpotlighCard
           feedBack="Syed was a huge help in setting up my website and integration. He is very knowledgeable and was always quick to respond to any communication and changes. Will contact Syed again in the future for any changes and updates required for my website. He was also able to over-deliver and set up everything I needed to get my site online."
           clientName="Henry Hill"

@@ -32,7 +32,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="mx-auto w-10/12 xl:w-[1100px] mt-24">
+    <div className="mx-auto w-11/12 xl:w-[1100px] mt-24">
       {/* grid wrapper */}
       <div className="   grid grid-cols-3 grid-rows-3 gap-4 lg:gap-8">
         {/* Innovation Card */}
@@ -48,7 +48,7 @@ const HeroSection = () => {
         </div>
 
         {/* Syed Portrait */}
-        <div className="row-span-2">
+        <div className="row-span-2 min-h-[160px]">
           <div
             className="spotlight h-full p-[2px] bg-transparent relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[1] = el)}

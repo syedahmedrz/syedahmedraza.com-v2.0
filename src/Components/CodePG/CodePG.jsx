@@ -27,7 +27,7 @@ const CodePG = () => {
   };
 
   return (
-    <div className="bg-sec-dark rounded-md mx-auto w-10/12 xl:w-[1100px] mt-32 lg:mt-64 relative overflow-hidden">
+    <div className="bg-sec-dark rounded-md mx-auto w-11/12 xl:w-[1100px] mt-32 lg:mt-64 relative overflow-hidden">
       {/* Progress bar */}
       {running && (
         <div className="w-full bg-gray-200 h-1 overflow-hidden">

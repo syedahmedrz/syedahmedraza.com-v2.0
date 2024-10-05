@@ -36,7 +36,7 @@ const TechStack = () => {
   }, []);
 
   return (
-    <div className="mx-auto w-10/12 xl:w-[1100px] mt-32 lg:mt-64 relative">
+    <div className="mx-auto w-11/12 xl:w-[1100px] mt-32 lg:mt-64 relative">
       {/* just because of tailwind: so it will save these classes so we can use them dynamically */}
       <div className="hidden col-span-2 row-span-2 justify-end items-end"></div>
       <div className="grid lg:grid-cols-3 gap-4">

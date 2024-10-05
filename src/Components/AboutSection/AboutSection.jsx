@@ -3,7 +3,7 @@ import React from "react";
 const AboutSection = () => {
   return (
     <div className="mt-32 lg:mt-64 bg-sec-dark w-full py-32">
-      <div className="mx-auto w-10/12 xl:w-[1100px] grid lg:grid-cols-2 gap-4 lg:gap-8">
+      <div className="mx-auto w-11/12 xl:w-[1100px] grid lg:grid-cols-2 gap-4 lg:gap-8">
         <div className="">
           <h1 className="text-lg lg:text-3xl font-bold text-white">
             Hi, This is Syed.
