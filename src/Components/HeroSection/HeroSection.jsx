@@ -1,8 +1,5 @@
 import React, { useEffect, useRef } from "react";
 
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
-
 import { TbCode } from "react-icons/tb";
 import { RiRobot2Line } from "react-icons/ri";
 import { FaArrowDownLong } from "react-icons/fa6";
@@ -54,10 +51,10 @@ const HeroSection = () => {
             ref={(el) => (spotlightRefs.current[1] = el)}
           >
             <div className="relative z-50 h-full">
-              <LazyLoadImage
+              <img
                 alt="Syed Image"
                 src={SyedPortrait} // Use imported image here
-                effect="blur" // Optional: Adds a blur effect while the image is loading
+                // effect="blur" // Optional: Adds a blur effect while the image is loading
                 className="spotlight-content rounded-md relative h-full object-cover"
               />
             </div>
