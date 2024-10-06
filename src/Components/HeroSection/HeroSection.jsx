@@ -31,9 +31,9 @@ const HeroSection = () => {
   return (
     <div className="mx-auto w-11/12 xl:w-[1100px] mt-24">
       {/* grid wrapper */}
-      <div className="   grid grid-cols-3 grid-rows-3 gap-3 md:gap-4 lg:gap-8">
+      <div className="   grid grid-cols-3 grid-rows-3 gap-3 md:gap-4 lg:gap-8 h-fit">
         {/* Innovation Card */}
-        <div className="h-full">
+        <div className="m-h-[80px]">
           <div
             className="spotlight h-full p-[2px] bg-sec-dark relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[0] = el)}
@@ -50,19 +50,18 @@ const HeroSection = () => {
             className="spotlight h-full p-[2px] bg-transparent relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[1] = el)}
           >
-            <div className="relative z-50 h-full">
+            <div className="relative z-50 h-full spotlight-content">
               <img
                 alt="Syed Image"
                 src={SyedPortrait} // Use imported image here
-                // effect="blur" // Optional: Adds a blur effect while the image is loading
-                className="spotlight-content rounded-md relative h-full object-cover"
+                className=" rounded-md object-cover min-h-full"
               />
             </div>
           </div>
         </div>
 
         {/* Syed Slogan */}
-        <div>
+        <div className="m-h-[80px]">
           <p className="text-white text-xs md:text-2xl lg:text-4xl lg:leading-[50px] ">
             <span className="font-bold">
               &lt; Syed Ahmed <br />
@@ -74,7 +73,7 @@ const HeroSection = () => {
         </div>
 
         {/* Coding Icon Card */}
-        <div className="h-full">
+        <div className="m-h-[80px]">
           <div
             className="spotlight h-full p-[2px] bg-ter-dark relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[2] = el)}
@@ -86,7 +85,7 @@ const HeroSection = () => {
         </div>
 
         {/* Smart Card */}
-        <div className="h-full ">
+        <div className="m-h-[80px] ">
           <div
             className="spotlight h-full p-[2px] bg-ter-dark relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[3] = el)}
@@ -98,7 +97,7 @@ const HeroSection = () => {
         </div>
 
         {/* AI ICON Card */}
-        <div className="h-full col-start-2">
+        <div className="m-h-[80px] col-start-2">
           <div
             className="spotlight h-full p-[2px] bg-sec-dark relative rounded-md overflow-hidden cursor-pointer"
             ref={(el) => (spotlightRefs.current[4] = el)}
@@ -112,7 +111,7 @@ const HeroSection = () => {
         </div>
 
         {/* Arrow Card */}
-        <div className="h-full ">
+        <div className="m-h-[80px] ">
           <div className="flex items-center justify-center w-[60px] h-[60px] border-4 border-sec-dark  text-white rounded-full animate-pulse lg:animate-bounce">
             <FaArrowDownLong size={"25px"} />
           </div>
